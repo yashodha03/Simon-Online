@@ -1,0 +1,136 @@
+#blue {
+    background-color: blue;
+    border-radius: 150px 0 0 0;
+    left: 5px;
+    top: 5px;
+}
+
+#blue_flash {
+    background-color: rgb(0, 0, 119);
+    border-radius: 150px 0 0 0;
+    left: 5px;
+    top: 5px;
+}
+
+#green {
+    background-color: rgb(0, 255, 0);
+    border-radius: 0 150px 0 0;
+    left: 155px;
+    top: 5px;
+}
+
+#green_flash {
+    background-color: rgb(0, 119, 0);
+    border-radius: 0 150px 0 0;
+    left: 155px;
+    top: 5px;
+}
+
+#yellow {
+    background-color: yellow;
+    border-radius: 0 0 0 150px;
+    left: 5px;
+    top: 155px;
+}
+
+#yellow_flash {
+    background-color: rgb(138, 138, 0);
+    border-radius: 0 0 0 150px;
+    left: 5px;
+    top: 155px;
+}
+
+#red {
+    background-color: red;
+    border-radius: 0 0 150px 0;
+    left: 155px;
+    top: 155px;
+}
+
+#red_flash {
+    background-color: rgb(117, 0, 0);
+    border-radius: 0 0 150px 0;
+    left: 155px;
+    top: 155px;
+}
+
+#center {
+    background-color: black;
+    border-radius: 150px 150px 150px 150px;
+    left: 77.5px;
+    top: 77.5px;
+    z-index: 5;
+}
+
+#count {
+    position: absolute;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    left: 125px;
+    top: 170px;
+    z-index: 6;
+    text-align: center;
+}
+
+#start {
+    border-radius: 50%;
+    height: 20px;
+    width: 45px;
+    left: 132.5px;
+    top: 100px;
+    z-index: 6;
+    position: absolute;
+    outline: none;
+}
+
+#difficulty {
+    border-radius: 50%;
+    height: 20px;
+    width: 55px;
+    left: 127.5px;
+    top: 145px;
+    z-index: 6;
+    position: absolute;
+    outline: none
+}
+
+button:active {
+    background-color: orange;
+}
+
+#container div {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+#container {
+    background-color: rgb(0, 0, 0);
+    height: 310px;
+    width: 310px;
+    border-radius: 310px 310px 310px 310px;
+    position: relative;
+}
+
+h1 {
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    font-size: 60px;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+    color: white;
+    font-family: Arial, sans-serif;
+}

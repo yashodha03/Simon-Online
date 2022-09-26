@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="event.js"></script>
+        <link href="home.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Simon</h1>
+        <p>Hit the colors in the order they flash.</p>
+        <p>Remember more colors than your opponent.</p>
+        <div id="container">
+            <button id="start" onclick="ready()">Start</button>
+            <button id="difficulty" onclick="change()" value="1600">Easy</button>
+            <p id="count">0</p>
+            <div id="center"></div>
+            <div id="blue" onclick="answer(1)"></div>
+            <div id="green" onclick="answer(2)"></div>
+            <div id="red" onclick="answer(3)"></div>
+            <div id="yellow" onclick="answer(4)"></div>
+        </div>
+        <p id="messages"></p>
+
+    </body>
+</html>
